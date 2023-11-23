@@ -51,7 +51,7 @@ main
 
 .text-plate
 {
-    line-height: 25px;
+    line-height: 2em;
     text-align: left;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
