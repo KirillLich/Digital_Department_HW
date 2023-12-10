@@ -1,6 +1,5 @@
 body
 {
-    /* background-image: url("/img/SOAD_Album_TOXICITY.jpg"); */
     background-color: rgb(86, 116, 130);
     margin: 0;
     padding: 0;
@@ -17,8 +16,34 @@ header
 
 main
 {
-    padding-top: 2em;
+    padding-top: 3px;
     padding: 3px;
+}
+
+.singles-layout
+{
+    display: grid;
+    grid-row-gap: 3px;
+    grid-template-columns: auto auto auto;
+}
+
+.song
+{
+    background-color: rgb(52, 52, 52);
+    text-align: center;
+    grid-column: span 2;
+}
+
+.home-layout
+{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-text
+{
+    background-color: rgb(52, 52, 52);
 }
 
 .albums-layout
